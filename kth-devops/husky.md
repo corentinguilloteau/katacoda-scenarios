@@ -21,7 +21,7 @@ You can now setup husky
 
 Now create a husky hook. It is a script that will run each time you will run `git commit`:
 
-`npx husky add .husky/pre-commit 'npx --no -- commitlint --edit "$1"'`{{execute}}
+`npx husky add .husky/commit-msg 'npx commitlint --edit $1'`{{execute}}
 
 This script will run `commitlint` on your commit message each time you make a new commit, and will let you actually
 create the commit only if the message is valid.
