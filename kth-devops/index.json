@@ -14,12 +14,12 @@
 				"text": "commitlint.md"
 			},
 			{
-				"title": "Make it user friendly",
-				"text": "commitizen.md"
-			},
-			{
 				"title": "Automate it",
 				"text": "husky.md"
+			},
+			{
+				"title": "Make it user friendly",
+				"text": "commitizen.md"
 			},
 			{
 				"title": "Create nice changelogs",
