@@ -14,7 +14,10 @@ More than often commit messages are seen as a tedious task, that developpers jus
 is not more helpful than no message at all.
 
 But this can be fixed. In this tutorial, you will learn how you can improve your DevOps process by enforcing better
-commits. We will go through some tools that can help you write better commits, and actually use it in your CD workflow.
+commits. This will help your team to communicate, make your repositories cleaner and easier to use, and will help you in
+your CD workflow.
+
+We will go through some tools that can help you write better commits, and actually use it in your CD workflow.
 
 ## Learning Objective
 
