@@ -23,10 +23,10 @@ First, install the related package
 
 Then, add a new npm command to create a new release
 
-``npm set-script release "standard-version --no-verify"` or
-`npx npe scripts.release "standard-version --no-verify"`{{execute}}
+``npm set-script release "HUSKY_SKIP_HOOKS=1 HUSKY_SKIP_HOOKS=1 standard-version"` or
+`npx npe scripts.release "standard-version"`{{execute}}
 
-The `--no-verify` argument is used to prevent triggering the previously defined hooks.
+The `HUSKY_SKIP_HOOKS=1` environnement variable is used to prevent triggering the previously defined hooks.
 
 # Usage
 
@@ -34,5 +34,5 @@ You can now create as many commits as you want. Once you are ready to deploy a n
 
 `npm run release`{{execute}}
 
-Your changelog is automaticaly generated in the `CHANGELOG`{{open}}, the version of your `package.json`{{open}} file is
-bumped and a new git commit and tag is generated.
+Your changelog is automaticaly generated in the `CHANGELOG.md`{{open}}, the version of your `package.json`{{open}} file
+is bumped and a new git commit and tag is generated.
