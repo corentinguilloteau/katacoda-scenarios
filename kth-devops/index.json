@@ -15,7 +15,8 @@
 			},
 			{
 				"title": "Automate it",
-				"text": "husky.md"
+				"text": "husky.md",
+				"courseData": "git.sh"
 			},
 			{
 				"title": "Make it user friendly",
