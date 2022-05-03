@@ -19,11 +19,14 @@ link to know more about it.
 
 First, install the related package
 
-`npm i --save-dev standard-version`{{executes}}
+`npm i --save-dev standard-version`{{execute}}
 
 Then, add a new npm command to create a new release
 
-``npm set-script release "standard-version"` or `npx npe scripts.release "standard-version"`{{execute}}
+``npm set-script release "standard-version --no-verify"` or
+`npx npe scripts.release "standard-version --no-verify"`{{execute}}
+
+The `--no-verify` argument is used to prevent triggering the previously defined hooks.
 
 # Usage
 
