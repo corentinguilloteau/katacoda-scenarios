@@ -10,8 +10,6 @@ First, install the `commitlint` package:
 
 `npm install --save-dev @commitlint/cli`{{execute}}
 
-## Commit convention
-
 Next, we want to specify the commit convetion we want to use. Many conventions exists but we are going to use the
 classic conventional commits one.
 
