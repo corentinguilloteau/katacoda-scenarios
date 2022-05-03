@@ -13,10 +13,10 @@ which are meant to describe what the change is.
 More than often commit messages are seen as a tedious task, that developpers just skip by writing a generic message that
 is not more helpful than no message at all.
 
-But this can be fixed. In this tutorial, we will go through some tools that can help you write better commits, and
-actually use it in your CD workflow.
+But this can be fixed. In this tutorial, you will learn how you can improve your DevOps process by enforcing better
+commits. We will go through some tools that can help you write better commits, and actually use it in your CD workflow.
 
 ## Learning Objective
 
 -   Enforce conventionnal commits
--   Use well formated commits to generate changelogs
+-   Use well formated commits to generate changelogs and version changes
