@@ -5,7 +5,7 @@ specifications. This is why we are going to use [commitizen](https://github.com/
 
 First, install `commitizen`
 
-`npm install --save-dev @commitlint/prompt commitizen`{{execute}}
+`npm install --save-dev @commitlint/cz-commitlint commitizen`{{execute}}
 
 In your `package.json`{{open}}, add the following configuration:
 
@@ -13,12 +13,12 @@ In your `package.json`{{open}}, add the following configuration:
 // package.json
 "config": {
     "commitizen": {
-      "path": "@commitlint/prompt"
+      "path": "@commitlint/cz-commitlint"
     }
 }
 ```
 
-or run the following command `npx npe config.commitizen.path "@commitlint/prompt"`{{execute}}.
+or run the following command `npx npe config.commitizen.path "@commitlint/cz-commitlint"`{{execute}}.
 
 Then, add a new hook to husky to run `commitizen` when you want to commit
 
