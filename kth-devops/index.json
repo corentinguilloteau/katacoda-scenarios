@@ -28,7 +28,8 @@
 			}
 		],
 		"intro": {
-			"text": "intro.md"
+			"text": "intro.md",
+			"courseData": "setup.sh"
 		},
 		"finish": {
 			"text": "finish.md"
@@ -38,6 +39,6 @@
 		"uilayout": "vscode-terminal-split"
 	},
 	"backend": {
-		"imageid": "nodejs:14"
+		"imageid": "nodejs:12"
 	}
 }
