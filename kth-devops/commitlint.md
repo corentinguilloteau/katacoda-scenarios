@@ -1,5 +1,3 @@
-# Linting your commit
-
 Once you've learned what conventional commits, you will want a way to make sure your commit messages are well formated.
 
 For this purprose, we are gonna use [commitlint](https://github.com/conventional-changelog/commitlint).
