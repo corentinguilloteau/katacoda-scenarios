@@ -1,35 +1,42 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
-  "difficulty": "Beginner",
-  "time": "3 minutes",
-  "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "code": "foreground.sh"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
-  },
-  "environment": {
-    "uilayout": "terminal"
-  },
-  "backend": {
-    "imageid": "ubuntu:2004"
-  }
+	"title": "Improve your commits",
+	"description": "Improve your commits for better communication and a better workflow",
+	"difficulty": "Beginner",
+	"time": "3 minutes",
+	"details": {
+		"steps": [
+			{
+				"title": "What is conventionnal commit",
+				"text": "cc.md"
+			},
+			{
+				"title": "Linting your commit",
+				"text": "commitlint.md"
+			},
+			{
+				"title": "Make it user friendly",
+				"text": "commitizen.md"
+			},
+			{
+				"title": "Automate it",
+				"text": "husky.md"
+			},
+			{
+				"title": "Create nice changelogs",
+				"text": "changelogs.md"
+			}
+		],
+		"intro": {
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"environment": {
+		"uilayout": "vscode-terminal-split"
+	},
+	"backend": {
+		"imageid": "ubuntu:2004"
+	}
 }
