@@ -36,7 +36,8 @@
 		}
 	},
 	"environment": {
-		"uilayout": "vscode-terminal-split"
+		"uilayout": "vscode-terminal-split",
+		"uieditorpath": "/root/workspace/"
 	},
 	"backend": {
 		"imageid": "nodejs:12"
