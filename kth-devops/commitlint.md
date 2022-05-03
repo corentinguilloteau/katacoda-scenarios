@@ -1,4 +1,5 @@
-Once you've learned what conventional commits, you will want a way to make sure your commit messages are well formated.
+Once you've learned what conventional commits is, you will want a way to make sure your commit messages are well
+formated.
 
 For this purprose, we are gonna use [commitlint](https://github.com/conventional-changelog/commitlint).
 
@@ -8,7 +9,7 @@ First, install the `commitlint` package:
 
 `npm install --save-dev @commitlint/cli`{{execute}}
 
-Next, we want to specify the commit convetion we want to use. Many conventions exists but we are going to use the
+Next, we want to specify the commit convention we want to use. Many conventions exists but we are going to use the
 classic conventional commits one.
 
 Install this specific convention
