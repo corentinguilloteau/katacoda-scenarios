@@ -21,7 +21,7 @@ You can now setup husky
 
 Now create a husky hook. It is a script that will run each time you will run `git commit`:
 
-`npx husky add .husky/pre-commit 'npx commitlint --edit $1'`{{execute}}
+`npx husky add .husky/pre-commit 'npx --no -- commitlint --edit "\${1}"'`{{execute}}
 
 This script will run `commitlint` on your commit message each time you make a new commit, and will let you actually
 create the commit only if the message is valid.
@@ -33,8 +33,8 @@ accepted.
 
 This commit is a valid commit:
 
-`touch readme.md & git add readme.md & git commit -m "chore: added readme"`{{execute}}
+`echo "valid" > readme.md && git add readme.md && git commit -m "chore: added readme"`{{execute}}
 
 And this commit is not:
 
-`touch readme.md & git add readme.md & git commit -m "added readme"`{{execute}}
+`echo "invalid" > readme.md && git add readme.md && git commit -m "added readme"`{{execute}}
