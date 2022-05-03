@@ -5,7 +5,7 @@ automate your version numbers.
 
 To do so, you can use [standard-version](https://github.com/conventional-changelog/standard-version).
 
-This tool will generate a changelog based on your commits. It then retrieve the current version of your project and,
+This tool will generate a changelog based on your commits. It then retrieves the current version of your project and,
 depending on the nature of your commits, it will automaticaly bump its version, following
 [semantic versioning](https://semver.org/) rules. It is a really good way to add state-of-the-art versioning to your
 project!
