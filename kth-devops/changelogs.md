@@ -23,10 +23,9 @@ First, install the related package
 
 Then, add a new npm command to create a new release
 
-``npm set-script release "HUSKY_SKIP_HOOKS=1 HUSKY_SKIP_HOOKS=1 standard-version"` or
-`npx npe scripts.release "standard-version"`{{execute}}
+``npm set-script release "HUSKY=0 standard-version"` or `npx npe scripts.release "HUSKY=0 standard-version"`{{execute}}
 
-The `HUSKY_SKIP_HOOKS=1` environnement variable is used to prevent triggering the previously defined hooks.
+The `HUSKY=0` environnement variable is used to prevent triggering the previously defined hooks.
 
 # Usage
 
